@@ -71,6 +71,7 @@
 }
 
 .sign-in {
+    margin: 0 10px 0 0;
     font-size: 19px;
 }
 
@@ -83,18 +84,24 @@
 
 .item-number {
     /* border: 2px solid white; */
-    padding: 0;
-    width: 20px;
+
+    width: 30px;
+    height: 30px;
     display: grid;
     place-items: center;
     border-radius: 50%;
     position: absolute;
-    top: 3px;
-    right: 43px;
-    background-color: var(--bg-color);
+    top: -5px;
+    right: 85px;
+    border: 4px solid var(--bg-color);
+    background-color: #494957;
     color: #cec8c8;
     font-size: 18px;
     font-weight: 400;
+}
+
+.user-acc {
+    margin: 0 20px 0;
 }
 
 i {
