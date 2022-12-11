@@ -7,10 +7,11 @@ const Navbar = () => {
         <>
             <div className='nav'>
                 <div className='logo'>
-                    <img className='logo-img' src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1200px-Amazon_logo.svg.png'></img>
+                    {/* <img className='logo-img' src='#'>logo</img> */}
+                    Logo
                 </div>
                 <div className='nav-search-bar'>
-                    <input className='search-box' type='text' />
+                    <input className='search-box' placeholder='Search' type='text' />
                     <i class="fa-lg fa-solid fa-magnifying-glass"></i>
                 </div>
 
@@ -19,7 +20,9 @@ const Navbar = () => {
                         Sign In
                     </div>
                     <div className='add-to-cart'>
-                        <i class="fa-lg fa-solid fa-cart-shopping"></i>
+                        <p className='item-number'>1</p>
+                        <i class="fa-2x fa-solid fa-cart-shopping"></i>
+
                     </div>
                 </div>
 
